@@ -31,6 +31,10 @@ namespace RaceTrack.RaceTrack.Drivers
         {
             Car.Brake();
         }
+        public virtual void StopEngine()
+        {
+            Console.WriteLine($"{Name} leaps out of {Car.Name}");
+        }
 
         public abstract void Drive();
 
